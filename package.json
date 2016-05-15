@@ -1,0 +1,22 @@
+{
+  "name": "data_structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundarcodes/data_structures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sundarcodes/data_structures/issues"
+  },
+  "homepage": "https://github.com/sundarcodes/data_structures#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}

@@ -13,10 +13,5 @@ function valueOfNthNode(ll, n){
   return currentNode.value
 }
 
-var longLinkedList = new ll.LinkedList();
-for (var i = 1;i <= 100 ; i++){
-  longLinkedList.insert(i);
-}
 
-console.log(valueOfNthNode(longLinkedList,46));
-console.log(valueOfNthNode(longLinkedList,20));
+module.exports.valueOfNthNode = valueOfNthNode;
