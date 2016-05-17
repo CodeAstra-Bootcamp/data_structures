@@ -4,7 +4,7 @@ class Stack < Array
   def push(val)
     raise "StackOverflow" if self.tail_index == self.length - 1
 
-    self.tail_index || = -1
+    self.tail_index ||= -1
     self.tail_index += 1
     self[self.tail_index] = val
   end

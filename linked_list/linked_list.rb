@@ -32,7 +32,18 @@ class LinkedList
   def delete
     @sentinel.next = @sentinel.next.try(:next)
   end
+
+  def length
+    len = 0
+    current_node = @sentinel
+    while !current_node.next.nil?
+      len += 1
+      current_node = current_node.next
+    end
+
+    return len
+  end
 end
 
-class TestLinkedList < Minitest::Test
-end
+# class TestLinkedList < Minitest::Test
+# end
