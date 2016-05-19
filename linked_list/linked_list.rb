@@ -34,5 +34,4 @@ class LinkedList
   end
 end
 
-class TestLinkedList < Minitest::Test
-end
+

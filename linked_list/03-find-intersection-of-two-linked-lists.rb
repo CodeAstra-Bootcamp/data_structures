@@ -1,5 +1,7 @@
-# Given 2 linked lists ll1 and ll2 that intersect, you need to find the value of the node of intersection.
-# Write a method that takes 2 linked lists as arguments and return the value of the intersection node
+# Given 2 linked lists ll1 and ll2 that intersect, you need to find the 
+# value of the node of intersection.
+# Write a method that takes 2 linked lists as arguments and return the
+# value of the intersection node
 
 require_relative 'linked_list'
 
